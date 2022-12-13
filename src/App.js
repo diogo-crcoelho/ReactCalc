@@ -3,7 +3,7 @@ import './App.css';
 import Frame from './Frame/Frame';
 
 const App = () => {
-	const [result, setResult] = useState(0);
+	const [result, setResult] = useState('');
 
 	return (
    	<div className="App">
